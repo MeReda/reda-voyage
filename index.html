@@ -1,0 +1,154 @@
+<!-- 
+	IDEAS:
+  +	REDA VOYAGE new way to see the world;
+  	don't forget favicon : travel favicon;
+  +	try to delete the scroll bar;
+	use "font owsome" "colorhunt.co" "balsamiq.cloud" "fontawsome.com";
+	your code shold be dry (not wet);
+-->
+
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>The Traveler</title>
+
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+	<!-- StyleSheets -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+		integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles/style.css">
+
+	<!-- Script -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+		integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous">
+	</script>
+
+	<!-- font.google -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@600&display=swap" rel="stylesheet">
+
+	<!-- font awsome -->
+	<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+	  integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous">
+	</script>
+</head>
+
+<body>
+	<header>
+		<!--navbar-->
+		<nav id="navbar" class="navbar navbar-expand justify-content-center navbar-dark">
+			<ul class="navbar-nav">
+				<li class="nav-item"><a class="nav-link" href="#explore-morocco">Explore</a></li>
+				<li class="nav-item"><a class="nav-link" href="#destination">Destinations</a></li>
+				<li class="nav-item"><a class="nav-link" href="#footer">Contact</a></li>
+			</ul>
+		</nav>
+		<!-- Title -->
+		<div id="title">
+			<div class="title-main">
+				<h1 class="title-heading">THE TRAVELER</h1>
+				<p class="title-text">New way to see Morocco</p>
+			</div>
+		</div>
+	</header>
+	<main>
+		<!-- Explore Morocco -->
+		<section id="explore-morocco" class="container-fluid">
+			<div class="row">
+				<div class="col-md-6">
+					<h3 class="eMc-heading">Explore Morocco</h3>
+					<p class="eMc-text">Explore Morocco Travel Morocco with its magnificent and varied landscapes does not fail to impress tourists from all over the world again and again. The bustling Marrakech road over the Atlas Mountains to the desert is lined with traditional villages and kasbahs as well as overwhelming nature. Meet nice people along the way.</p>
+				</div>
+				<div class="col-md-6">
+					<img class="explore-img" src="images/exploremorocco.png" alt="explore morocco image">
+				</div>
+			</div>
+		</section>>
+		<!-- Features -->
+		<section id="features" class="container-fluid">
+			<div class="row">
+				<div class="col-md-4">
+					<img class="f-image" src="images/featuresplaces.png" alt="f places image">
+					<h3 class="f-heading">Places</h3>
+					<p class="f-text">Morocco's top tourist attractions range from grand Roman ruins to orange-toned mud-brick kasbah architecture, which makes it one of north Africa's most interesting historic destinations.</p>
+				</div>
+				<div class="col-md-4">
+					<img class="f-image" src="images/featureshotels.png" alt="f Hotels image">
+					<h3 class="f-heading">Hotels</h3>
+					<p class="f-text">The finest hotels in Morocco are far more than a comfy bed and a cold cocktail; they’re a reflection of the past, an amalgamation of the deep culture and, often, embedded in beautiful landscapes.</p>
+				</div>
+				<div class="col-md-4">
+					<img class="f-image" src="images/featuresFood.png" alt="f Food image">
+					<h3 class="f-heading">Food</h3>
+					<p class="f-text">Moroccan cuisine is influenced by Morocco's interactions and exchanges with other cultures and nations over the centuries.Moroccan cuisine is usually a mix of Amazigh, Andalusian, and Mediterranean cuisines.</p>
+				</div>
+			</div>
+		</section>
+		<!-- Destinations -->
+		<section id="destination">
+			<h1 class="title-heading">Start your jurney</h1>
+			<div id="destination-carousel" class="carousel slide" data-ride="false">
+				<div class="carousel-inner">
+					<div class="carousel-item active container-fluid">
+						<div class="card" >
+							<img src="images/destinationMarrakech.webp" class="card-img-top" alt="Marrakech">
+							<div class="card-body">
+								<h2 class="card-title"><a href="#" class="btn destination-btn">Marrakech</a></h2>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item container-fluid">
+						<div class="card" >
+							<img src="images/destinationFes.jpg" class="card-img-top" alt="Fes">
+							<div class="card-body">
+								<h2 class="card-title"><a href="#" class="btn destination-btn">Fes</a></h2>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item container-fluid">
+						<div class="card" >
+							<img src="images/destinationDakhla.jpg" class="card-img-top" alt="Dakhla">
+							<div class="card-body">
+							  <h2 class="card-title"><a href="#" class="btn destination-btn">Dakhla</a></h2>
+							</div>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-target="#destination-carousel"
+					data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-target="#destination-carousel"
+					data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</button>
+			</div>
+		</section>
+	</main>
+	<!-- footer -->
+	<footer id="footer">
+		<div class="container-fluid">
+			<a href="#"><span class="fab fa-twitter footer-icon"></span></a>
+			<a href="#"><span class="fab fa-facebook-f footer-icon"></span></a>
+			<a href="#"><span class="fab fa-instagram footer-icon"></span></a>
+			<a href="#"><span class="fas fa-envelope footer-icon"></span></a>
+	
+			<p>© Copyright 2021 the traveler by reda</p>
+		</div>
+	
+	  </footer>
+</body>
+
+</html>

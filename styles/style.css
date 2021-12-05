@@ -1,0 +1,196 @@
+body{
+	background: url(../images/moroccanbackground1.png) no-repeat fixed;
+	background-size: 100%;
+	font-family: 'Calibri light', 'Trebuchet MS', sans-serif;
+}
+
+/* ScrollBar */
+
+::-webkit-scrollbar{
+	display: none;
+}
+
+.container-fluid {
+	padding :7%;
+}
+
+/* ---Header--- */
+
+header{
+	background: rgba(54, 56, 76, 0.97);
+}
+
+/* Navar */
+
+#navbar{
+	padding-top: 2%;
+	font-size: 1.4rem;
+	font-weight: 2rem;
+}
+
+/* Title */
+
+#title{
+	padding: 15% 0 20%;
+}
+
+.title-main{
+	background: #879974;
+	text-align: center;
+}
+
+.title-heading{
+	font-family: 'Bodoni mt','Bodoni Moda', serif;
+    font-size: 5rem;
+    line-height: 1.5;
+}
+
+.title-text{
+	font-size: 2rem;
+	padding-bottom: 1rem;
+}
+
+/* ---Main--- */
+
+main{
+	background: rgba(255, 255, 255, 0.85);
+}
+
+/* Explore MOROCCO */
+
+.eMc-heading{
+	font-size: 5rem;
+	font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.eMc-text{
+	font-size: 2rem;
+}
+
+.explore-img{
+	width:100%;
+}
+
+/* Features */
+
+#features{
+	background: rgba(54, 56, 76, 0.85);
+	color: #fff;
+	text-align: center;
+	padding-bottom: 10%;
+}
+
+.f-heading{
+	font-size: 3rem;
+}
+
+.f-text{
+	font-size: 1.5rem;
+}
+
+.f-image{
+	width: 70%;
+}
+/* Destination */
+
+#destination{
+	text-align: center;
+}
+
+.card{
+	background: rgba(54, 56, 76, 0.85);
+	position: relative;
+	left: 35%;
+	width: 25rem;
+}
+
+.destination-btn{
+	border: solid #879974;
+	font-size: 2rem;
+	color: #879974;
+}
+
+.destination-btn:hover{
+	border: solid #fff;
+	font-size: 2rem;
+	color: #fff;
+}
+
+
+/* carousel icon style */
+
+/* source : https://stackoverflow.com/questions/46249541/change-arrow-colors-in-bootstraps-carousel */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+.carousel-control-next-icon::after
+{
+  content: '→';
+  font-size: 55px;
+  color: rgb(54, 56, 76);
+}
+
+.carousel-control-prev-icon::after {
+  content: '←';
+  font-size: 55px;
+  color: rgb(54, 56, 76);;
+}
+
+/* cool explanation for ::befor & ::after : https://www.youtube.com/watch?v=OIWZ4EXwlnA */
+
+/*Footer*/
+#footer{
+	text-align: center;
+	background: rgba(54, 56, 76, 0.97);
+	color: white;
+}
+.footer-icon{
+	margin : 0 5px 10px;
+	color : white;
+}
+
+@media (max-width : 1000px) {
+	/* Title *//* Destination */
+	.title-heading{
+		font-size: 4rem;
+	}
+	/* Destination */
+	.card{
+		position: relative;
+		left: 25%;
+		width: 20rem;
+	}
+} 
+@media (max-width : 600px) {
+	/* Body */
+	body{
+		background-repeat: repeat-y;
+	}
+	/* Title *//* Destination */
+	.title-heading{
+		font-size: 4rem;
+	}
+
+	/* Explore MOROCCO */
+	.eMc-heading{
+		font-size: 4rem;
+		font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+	}
+	.eMc-text{
+		font-size: 1.5rem;
+	}
+	.explore-img{
+		width:100%;
+	}
+
+	/* Destination */
+	.card{
+		width: 15rem;
+	}	
+}
