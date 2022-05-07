@@ -99,17 +99,17 @@ main{
 
 .card{
 	background: rgba(54, 56, 76, 0.85);
+	width: 25rem;
 }
 
 .destination-btn{
 	border: solid #879974;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: #879974;
 }
 
 .destination-btn:hover{
-	border: solid #fff;
-	font-size: 2rem;
+	border: #fff;
 	color: #fff;
 }
 
