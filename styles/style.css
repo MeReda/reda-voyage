@@ -99,9 +99,6 @@ main{
 
 .card{
 	background: rgba(54, 56, 76, 0.85);
-	position: relative;
-	left: 35%;
-	width: 25rem;
 }
 
 .destination-btn{
@@ -174,12 +171,12 @@ main{
 	}
 	/* Title *//* Destination */
 	.title-heading{
-		font-size: 4rem;
+		font-size: 3rem;
 	}
 
 	/* Explore MOROCCO */
 	.eMc-heading{
-		font-size: 4rem;
+		font-size: 3rem;
 		font-family: 'Calibri', 'Trebuchet MS', sans-serif;
 	}
 	.eMc-text{
