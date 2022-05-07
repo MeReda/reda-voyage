@@ -165,6 +165,14 @@ main{
 	.title-text{
 		font-size: 1rem;
 	}
+	/*Features*/
+	.f-heading{
+		font-size: 2rem;
+	}
+
+	.f-text{
+		font-size: 1rem;
+	}
 	/* Destination */
 	.card{
 		width: 20rem;
@@ -197,7 +205,14 @@ main{
 	.explore-img{
 		width:100%;
 	}
+	/*Features*/
+	.f-heading{
+		font-size: 2rem;
+	}
 
+	.f-text{
+		font-size: 1rem;
+	}
 	/* Destination */
 	.card{
 		width: 18rem;
