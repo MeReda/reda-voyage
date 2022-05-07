@@ -153,14 +153,15 @@ main{
 }
 
 @media (max-width : 1000px) {
+	#navbar{
+		font-size: 1rem;
+	}
 	/* Title *//* Destination */
 	.title-heading{
 		font-size: 4rem;
 	}
 	/* Destination */
 	.card{
-		position: relative;
-		left: 25%;
 		width: 20rem;
 	}
 } 
@@ -168,6 +169,9 @@ main{
 	/* Body */
 	body{
 		background-repeat: repeat-y;
+	}
+	#navbar{
+		font-size: 1rem;
 	}
 	/* Title *//* Destination */
 	.title-heading{
