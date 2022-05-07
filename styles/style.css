@@ -18,7 +18,6 @@ body{
 
 header{
 	background: rgba(54, 56, 76, 0.97);
-	height: 100vh;
 }
 
 /* Navar */
@@ -215,6 +214,6 @@ main{
 	}
 	/* Destination */
 	.card{
-		width: 18rem;
+		width: 15rem;
 	}	
 }
