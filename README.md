@@ -7,7 +7,7 @@ The website features a clean and modern design, with a focus on showcasing high-
 ## Technologies Used
 - HTML
 - CSS
-- Bootstrap 5
+- Bootstrap 4.6.1
 
 ## Features
 - Clean and modern design
