@@ -103,7 +103,7 @@ main{
 }
 
 .destination-btn{
-	border: solid #879974;
+	border: 1px solid #879974;
 	font-size: 1.5rem;
 	color: #879974;
 }
